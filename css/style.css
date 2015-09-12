@@ -6,7 +6,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 --*/
 body{
 	margin:0;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Oxygen', sans-serif;
 }
 body a{
 	transition: 0.5s all ease;
@@ -99,8 +99,17 @@ font-size: large;
 }
 
 .blog-text{
-    text-align: justify;
-    
+    text-align: justify; 
+}
+
+.column5 > li{
+    width: 18%;
+}
+
+.navbar-nav > li{
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 16px;
 }
 
 .banner-infoa{
