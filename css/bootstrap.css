@@ -45,11 +45,7 @@ template {
 }
 
 .main-top.navbar-collapse.collapse{
-<<<<<<< HEAD
     background-color:rgb(85, 170, 85);
-=======
-    background-color:rgb(0, 184, 138);
->>>>>>> origin/master
     padding-left: 10%;
     
 }
