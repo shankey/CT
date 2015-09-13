@@ -69,6 +69,7 @@ font-size: large;
 
 .parent-null{
     overflow: auto;
+    
 }
 
 .circle {
@@ -100,6 +101,10 @@ font-size: large;
 
 .blog-text{
     text-align: justify; 
+    font-family: 'Roboto Slab', serif;
+    font-size: 17px;
+    font-weight: 400;
+    
 }
 
 .column5 > li{
