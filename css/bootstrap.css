@@ -257,6 +257,7 @@ th {
   }
   .navbar {
     display: none;
+      background-color:rgb(85, 170, 85);
   }
   .btn > .caret,
   .dropup > .btn > .caret {

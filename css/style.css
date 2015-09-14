@@ -53,6 +53,10 @@ display:block;
 
 .page-menu{
     align-content: center;
+    border-bottom: 3px solid green;
+    border-left: 1px solid;
+    border-right: 1px solid;
+    border-top: 1px solid;
 }
 
 .bottom-right-nav{
@@ -108,8 +112,28 @@ font-size: large;
 }
 
 .column5 > li{
-    width: 18%;
+    width: 19%;
 }
+
+.column5 > li > a:hover,
+.column5 > li > a{
+    color: black;
+    background-color: white;
+}
+
+.column5 > li.active > a,
+.column5 > li.active > a:hover,
+.column5 > li.active > a:focus{
+    
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    background-color: white;
+    color:black;
+}
+
+
 
 .navbar-nav > li{
     padding-left: 10px;
