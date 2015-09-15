@@ -3945,18 +3945,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   border: 1px solid transparent;
   border-radius: 4px 4px 0 0;
 }
-.nav-tabs > li > a:hover {
-  border-color: #eee #eee #ddd;
-}
-.nav-tabs > li.active > a,
-.nav-tabs > li.active > a:hover,
-.nav-tabs > li.active > a:focus {
-  color: #555;
-  cursor: default;
-  background-color: #fff;
-  border: 1px solid #ddd;
-  border-bottom-color: transparent;
-}
+
 .nav-tabs.nav-justified {
   width: 100%;
   border-bottom: 0;
@@ -3998,25 +3987,41 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   .nav-tabs.nav-justified > .active > a,
   .nav-tabs.nav-justified > .active > a:hover,
   .nav-tabs.nav-justified > .active > a:focus {
-    border-bottom-color: #fff;
+    
   }
 }
 .nav-pills > li {
   float: left;
   text-align: center;
+    color: black;
+    background-color: white;
+    font-size: 15px;
+    font-weight: 400;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    
     
 }
 .nav-pills > li > a {
   border-radius: 4px;
+    color: black;
 }
-.nav-pills > li + li {
-  margin-left: 2px;
-}
-.nav-pills > li.active > a,
-.nav-pills > li.active > a:hover,
-.nav-pills > li.active > a:focus {
-  color: #fff;
-  background-color: #337ab7;
+
+
+.nav-pills > li.active > a{
+    color: black;
+    background-color: white;
+    font-size: 17px;
+    font-weight: 600;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    text-decoration: underline;
 }
 .nav-stacked > li {
   float: none;
