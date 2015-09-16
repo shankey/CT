@@ -63,6 +63,7 @@ display:block;
     border-right: 1px solid;
     border-top: 1px solid;
     display: inline-block;
+    margin-bottom: 15px;
 }
 
 .bottom-right-nav{
@@ -81,6 +82,16 @@ font-size: large;
     overflow: auto;
     
 }
+
+
+.vertical-image-list{
+    float: left;
+    display: block;
+    list-style-type: none;
+    margin-bottom: 15px;
+}
+
+
 
 .circle {
     width: 100px;
