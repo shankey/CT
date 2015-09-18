@@ -26,6 +26,7 @@ ul,label, li{
 	margin:0;
 	padding:0;
     -webkit-padding-start: 0px;
+    list-style: none;
 }
 body a:hover{
 	text-decoration:none;
@@ -94,6 +95,10 @@ font-size: large;
     
 }
 
+.travel-by-heading{
+    background-color: lightgray;
+    width: 100%
+}
 
 .vertical-image-list{
     float: left;
@@ -101,6 +106,16 @@ font-size: large;
     list-style-type: none;
     margin-bottom: 15px;
     font-size: 14px;
+}
+
+.reach-by{
+    padding-left: 0px;
+    
+}
+
+.reach-by > ul > li {
+    margin-top: 5px;
+    margin-bottom: 15px;
 }
 
 .attraction-sub-heading{
@@ -116,6 +131,16 @@ font-size: large;
     border: 1px solid;
     text-align: center;
     
+}
+
+.about-sub-heading{
+    margin-bottom: 8px;
+    font-size: 16px;
+    text-decoration: underline;
+    
+    padding-bottom: 7px;
+    padding-top: 7px;
+
 }
 
 .center-align-blog-pic{
@@ -139,7 +164,7 @@ font-size: large;
 .blog-text{
     text-align: justify; 
     font-family: 'Roboto Slab', serif;
-    font-size: 17px;
+    font-size: 16px;
     font-weight: 400;
     
 }
