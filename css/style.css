@@ -186,6 +186,14 @@ font-size: large;
     
 }
 
+.blog-text-about{
+    text-align: justify; 
+    font-family: 'Roboto Slab', serif;
+    font-size: 15px;
+    font-weight: 400;
+    
+}
+
 .column5{
     border-bottom: 3px solid green;
     border-left: 1px solid;
