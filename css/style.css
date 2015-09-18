@@ -96,8 +96,8 @@ font-size: large;
 }
 
 .travel-by-heading{
-    background-color: lightgray;
-    width: 100%
+     font-size: 16px;
+     font-weight: 600;
 }
 
 .vertical-image-list{
@@ -115,7 +115,10 @@ font-size: large;
 
 .reach-by > ul > li {
     margin-top: 5px;
-    margin-bottom: 15px;
+    margin-bottom: 5px;
+    clear: both;
+    display: inline-block;
+    font-size: 15px;
 }
 
 .attraction-sub-heading{
@@ -135,7 +138,7 @@ font-size: large;
 
 .about-sub-heading{
     margin-bottom: 8px;
-    font-size: 16px;
+    font-size: 18px;
     text-decoration: underline;
     
     padding-bottom: 7px;
@@ -153,6 +156,12 @@ font-size: large;
 	margin-right: 10px;
     float: left;
     width: 40%;
+}
+
+.icon-left-align{
+	margin-right: 10px;
+    float: left;
+    width: 15%;
 }
 
 .right-align{
