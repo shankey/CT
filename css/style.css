@@ -125,6 +125,14 @@ font-size: large;
     margin-bottom: 8px;
 }
 
+.best-time > ul > li{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    clear: both;
+    display: inline-block;
+    font-size: 15px;
+}
+
 
 
 .circle {
