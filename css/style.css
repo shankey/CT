@@ -30,6 +30,17 @@ ul,label, li{
 body a:hover{
 	text-decoration:none;
 }
+
+a::after {
+    display:block;
+    content:attr(title);
+    font-weight:bold;
+    height:4px;
+    color:transparent;
+    overflow:hidden;
+    visibility:hidden;
+    margin-bottom:-4px;
+}
 /*--banner--*/
 .logo img{
 width:100%
@@ -89,6 +100,11 @@ font-size: large;
     display: block;
     list-style-type: none;
     margin-bottom: 15px;
+    font-size: 14px;
+}
+
+.attraction-sub-heading{
+    margin-bottom: 8px;
 }
 
 

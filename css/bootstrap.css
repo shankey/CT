@@ -1299,7 +1299,7 @@ h4,
 }
 h5,
 .h5 {
-  font-size: 14px;
+  font-size: 16px;
 }
 h6,
 .h6 {
@@ -4009,6 +4009,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .nav-pills > li > a {
   border-radius: 4px;
     color: black;
+    margin-bottom: 4px;
 }
 
 
@@ -4022,6 +4023,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     border-top-left-radius: 0px;
     border-top-right-radius: 0px;
     text-decoration: underline;
+    margin-bottom: 0px;
 }
 .nav-stacked > li {
   float: none;
