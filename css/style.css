@@ -139,7 +139,7 @@ font-size: large;
     margin-bottom: 5px;
     clear: both;
     display: inline-block;
-    font-size: 15px;
+    font-size: 16px;
 }
 
 
@@ -176,7 +176,7 @@ font-size: large;
 }
 
 .icon-left-align{
-	margin-right: 10px;
+	margin-right: 0px;
     float: left;
     width: 100%;
 }
