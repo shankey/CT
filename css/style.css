@@ -61,6 +61,7 @@ display:block;
 
 .center-align{
     text-align: center;
+    width: 40%
     
 }
 
@@ -76,6 +77,14 @@ display:block;
     border-top: 1px solid;
     display: inline-block;
     margin-bottom: 15px;
+}
+
+.clearboth{
+    clear: both;
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
 
 .bottom-right-nav{
@@ -181,9 +190,9 @@ font-size: large;
 .blog-text{
     text-align: justify; 
     font-family: 'Roboto Slab', serif;
-    font-size: 16px;
+    font-size: 17px;
     font-weight: 400;
-    
+    line-height: 1.5;
 }
 
 .blog-text-about{
