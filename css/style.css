@@ -802,10 +802,14 @@ border-radius: 3px;
 margin-bottom: 15px;
 }
 
+.photo a{
+    
+    background-color: rgba(0,0,0,.05);
+}
 
 .photo a:hover{
-    color: black;
-    background-color: rgba(0,0,0,.6);
+    
+    background-color: rgba(0,0,0,.5);
 }
 .secret{
 padding: 45px 0 0 0;
