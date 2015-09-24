@@ -118,7 +118,10 @@ font-size: large;
 }
 
 .hotels > ul >li{
-    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    clear: both;
+    display: block;
 }
 
 .hotel-heading{
@@ -147,8 +150,7 @@ font-size: large;
 }
 
 .reach-by > ul > li {
-    margin-top: 5px;
-    margin-bottom: 5px;
+    
     clear: both;
     display: inline-block;
     font-size: 16px;
@@ -159,8 +161,7 @@ font-size: large;
 }
 
 .best-time > ul > li{
-    margin-top: 5px;
-    margin-bottom: 5px;
+   
     clear: both;
     display: inline-block;
     font-size: 16px;
@@ -203,6 +204,8 @@ font-size: large;
 	margin-right: 0px;
     float: left;
     width: 100%;
+    margin-bottom: 10px;
+    
 }
 
 .right-align{
