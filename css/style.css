@@ -804,7 +804,8 @@ margin-bottom: 15px;
 
 
 .photo a:hover{
-color:#cc7a00;
+    color: black;
+    background-color: rgba(0,0,0,.6);
 }
 .secret{
 padding: 45px 0 0 0;
