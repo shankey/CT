@@ -103,6 +103,8 @@ a.fill-div{
     text-align: center;
 }
 
+
+
 .center-text{
     text-align: center;
 }
@@ -253,6 +255,11 @@ font-size: large;
     font-size: 15px;
     font-weight: 400;
     
+}
+
+.tagline-contact{
+    margin-left: 0px;
+    color: skyblue;
 }
 
 .column5{
