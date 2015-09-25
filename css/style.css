@@ -87,7 +87,7 @@ a.fill-div{
     margin-bottom: 20px;
     border-bottom: 1px solid;
     position: relative;
-    top: 110px;
+    
     letter-spacing: 3px;
 }
 
@@ -143,6 +143,17 @@ font-size: large;
     overflow: auto;
     
 }
+
+.navbar-nav > li.selected > a{
+    
+    background-color: darkgreen;
+}
+
+.navbar-nav > li > a:hover {
+    
+    background-color: darkgreen;
+}
+
 
 .hotels > ul >li{
     margin-top: 5px;
@@ -317,6 +328,7 @@ font-size: large;
     padding-left: 10px;
     padding-right: 10px;
     font-size: 16px;
+    font-weight: 600;
 }
 
 .banner-infoa{
