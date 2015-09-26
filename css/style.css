@@ -146,12 +146,15 @@ font-size: large;
 
 .navbar-nav > li.selected > a{
     
-    background-color: darkgreen;
+    font-size: 18px;
+    background-color: transparent;
 }
 
 .navbar-nav > li > a:hover {
     
-    background-color: darkgreen;
+   font-size: 18px;
+    background-color: transparent;
+    
 }
 
 
