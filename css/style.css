@@ -14,10 +14,13 @@ body a{
 	-moz-transition: 0.5s all ease;
 	-o-transition: 0.5s all ease;
 	-ms-transition: 0.5s all ease;
+    
 }
 h1,h2,h3,h4,h5,h6{
 	margin:0;			   
 }
+
+
 
 p{
 	margin:0;
@@ -31,6 +34,8 @@ ul,label, li{
 body a:hover{
 	text-decoration:none;
 }
+
+
 
 a::after {
     display:block;
@@ -144,18 +149,47 @@ font-size: large;
     
 }
 
+.navbar-nav > li {
+    display: block;
+}
+
 .navbar-nav > li.selected > a{
     
-    font-size: 18px;
-    background-color: transparent;
+    background-color: white;
+    color: rgb(85, 170, 85);
+    
 }
+
 
 .navbar-nav > li > a:hover {
     
-   font-size: 18px;
-    background-color: transparent;
+   
+    background-color: white;
+    color: rgb(85, 170, 85);
     
 }
+
+a.navbar-brand:hover{
+    
+}
+
+.white-bg{
+    
+}
+
+a.navbar-brand > img:hover{
+    
+    
+}
+
+img.logo-ct{
+    height: 80%;
+   
+    
+    
+}
+
+
 
 
 .hotels > ul >li{
@@ -3199,7 +3233,7 @@ width: 94.2%;
     color: #000000;
     margin-top: 3%;
     font-size: 18px;
-    font-weight: bold;
+    font-weight: 800;
     border-radius: 5px;
     padding: 5px 10px 5px 10px;
     

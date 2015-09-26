@@ -36,7 +36,34 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 
 	<!-- js -->
     
+    <!-- Google Analytics -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
+  ga('create', 'UA-68130077-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+    
+    <script> 
+    
+    $(function() {
+    $(".navbar-brand")
+        .mouseover(function() { 
+            $("img.logo-ct").attr("src", './images/CT-Logo-green.png');
+            $(".navbar-brand").css("background-color","white");
+            
+        })
+        .mouseout(function() {
+            $("img.logo-ct").attr("src", './images/CT-Logo-2heart.png');
+            $(".navbar-brand").css("background-color", "#55AA55" );
+        });
+});
+    
+</script>
 </head>
 <body>
 <!-- banner -->
@@ -45,7 +72,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                 <nav class="navbar remove-margin">
                     <div class="container-fluid">
                         <div class="navbar-header">
-                            <a class="navbar-brand" href="./index.html">Brand</a>
+                            <a class="navbar-brand" href="./index.html"><img class="logo-ct"  src="./images/CT-Logo-2heart.png" />   </a>
                         </div>
 
                         <ul class="nav navbar-nav">
