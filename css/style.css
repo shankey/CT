@@ -20,8 +20,6 @@ h1,h2,h3,h4,h5,h6{
 	margin:0;			   
 }
 
-
-
 p{
 	margin:0;
 }
@@ -35,7 +33,9 @@ body a:hover{
 	text-decoration:none;
 }
 
-
+#preloadimage{
+    display: none;
+}
 
 a::after {
     display:block;
