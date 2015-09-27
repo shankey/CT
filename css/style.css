@@ -70,6 +70,11 @@ a.fill-div{
     text-decoration: none;
 }
 
+#loadimage{
+    background: url(../images/CT-Logo-green.png);
+    display: none;
+}
+
 .place-title{
     font-size: 22px;
     color: white;
@@ -169,24 +174,9 @@ font-size: large;
     
 }
 
-a.navbar-brand:hover{
-    
-}
-
-.white-bg{
-    
-}
-
-a.navbar-brand > img:hover{
-    
-    
-}
 
 img.logo-ct{
-    height: 80%;
-   
-    
-    
+    height: 80%;  
 }
 
 
