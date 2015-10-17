@@ -1,0 +1,310 @@
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CoupleTrips</title>
+	<!--fonts-->
+    
+    
+    
+    
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Oxygen">
+		<link href='http://fonts.googleapis.com/css?family=PT+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,300' rel='stylesheet' type='text/css'>
+	<!--//fonts-->
+		<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+		<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+        <link href="css/dropzone.css" rel="stylesheet" type="text/css" media="all">
+	<!-- for-mobile-apps -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="keywords" content="Couple Trips, Love, Trip, Trips, Couple, Leisure" />
+		
+	<!-- //for-mobile-apps -->
+	<!-- js -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+        
+    <script src="ckeditor/ckeditor.js"></script>
+    <script src="http://tinymce.cachefly.net/4.2/tinymce.min.js"></script>
+    <script src="js/dropzone.js"></script>
+    <script>
+        
+        tinymce.init({selector:'#editor1',
+                      menubar: false,
+                      plugins: 'autoresize',
+                      autoresize_min_height: '300px',
+                      autoresize_max_height: '2000px',
+                      statusbar: false,
+                      toolbar1: "bold italic | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent",
+                      style_formats: [
+        {title: 'Bold text', inline: 'b'},
+        {title: 'Red text', inline: 'span', styles: {color: '#ff0000'}},
+        {title: 'Red header', block: 'h1', styles: {color: '#ff0000'}},
+        {title: 'Example 1', inline: 'span', classes: 'example1'},
+        {title: 'Example 2', inline: 'span', classes: 'example2'},
+        {title: 'Table styles'},
+        {title: 'Table row 1', selector: 'tr', classes: 'tablerow1'}
+    ],
+                      content_css : "css/tinymce.css, https://fonts.googleapis.com/css?family=Roboto+Slab:400,300"
+                      
+                     });
+    
+    
+    
+    
+    
+    </script>
+      
+        
+
+	<!-- js -->
+      <!-- Google Analytics -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-68130077-1', 'auto');
+  ga('send', 'pageview');
+
+</script>  
+
+    <script> 
+    
+    $(function() {
+    $(".navbar-brand")
+        .mouseover(function() { 
+            $("img.logo-ct").attr("src", './images/CT-Logo-green.png');
+            $(".navbar-brand").css("background-color","white");
+            
+        })
+        .mouseout(function() {
+            $("img.logo-ct").attr("src", './images/CT-Logo-2heart.png');
+            $(".navbar-brand").css("background-color", "#55AA55" );
+        });
+});
+    
+</script>
+</head>
+<body>
+<!-- banner -->
+<div class="banner">
+            <div class="collapse navbar-collapse main-top">
+                <nav class="navbar remove-margin">
+                    <div class="container-fluid">
+                        <div class="navbar-header">
+                           <a class="navbar-brand" href="./index.html"><img class="logo-ct"  src="./images/CT-Logo-2heart.png" />   </a>
+                        </div>
+
+                        <ul class="nav navbar-nav">
+                            <li><a href="./about.html">About Us</a></li>
+                            <li><a href="./share.html">Share Your Trip</a></li>
+                            <li class="selected"><a href="./contact.html">Contact Us</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+    <br><br>
+    <div class="parent-null">
+    <div class="col-md-2"></div>
+    <div class="col-md-8">
+    
+        <div class="banner-bottom left-right-margin">
+<!--                <h3 class = "center-align-place">Reach out to us</h3>-->
+            
+		
+        
+                <div class="row bs-wizard" style="border-bottom:0;">
+                
+                    <div class="col-xs-4 bs-wizard-step active">
+                        <div class="text-center bs-wizard-stepnum">Trip Title</div>
+                        <div class="progress"><div class="progress-bar"></div></div>
+                        <a href="#one" class="bs-wizard-dot" aria-controls="one" role="tab" data-toggle="tab"></a>
+<!--                  <div class="bs-wizard-info text-center">Lorem ipsum dolor sit amet.</div>-->
+                    </div>
+                
+                    <div class="col-xs-4 bs-wizard-step disabled"><!-- complete -->
+                        <div class="text-center bs-wizard-stepnum">Trip Pictures</div>
+                        <div class="progress"><div class="progress-bar"></div></div>
+                        <a href="#two" class="bs-wizard-dot" aria-controls="two" id="2" role="tab" data-toggle="tab"></a>
+<!--                  <div class="bs-wizard-info text-center">Nam mollis tristique erat vel tristique. Aliquam erat volutpat. Mauris et vestibulum nisi. Duis molestie nisl sed scelerisque vestibulum. Nam placerat tristique placerat</div>-->
+                    </div>
+                
+                    <div class="col-xs-4 bs-wizard-step disabled"><!-- complete -->
+                        <div class="text-center bs-wizard-stepnum">Trip Story</div>
+                        <div class="progress"><div class="progress-bar"></div></div>
+                        <a href="#three" class="bs-wizard-dot" aria-controls="three" role="tab" data-toggle="tab"></a>
+<!--                  <div class="bs-wizard-info text-center">Integer semper dolor ac auctor rutrum. Duis porta ipsum vitae mi bibendum bibendum</div>-->
+                    </div>
+                </div>
+	       
+        </div>
+        <br><br>
+    
+    
+    
+    </div>
+    <div class="col-md-2"></div>
+
+                <hr>						
+            </div>
+</div>
+    
+    <div class="parent-null">
+    <div class="col-md-3"></div>
+    <div class="col-md-6 blog-text">
+        <div class="tab-content">
+            <div role="tabpanel" class="tab-pane fade in active" id="one"> 
+        
+                <div class="center-align-place">
+                    <h3>Give Your Trip a Great Title</h3> <br>
+                    <input type="text" class="one-line-input">
+                
+                </div>
+                
+        
+            </div>
+            <div role="tabpanel" class="tab-pane fade" id="two">
+            
+                <form action="/file-upload" class="dropzone" id="my-awesome-dropzone"></form>
+            
+            </div>
+            
+            <div role="tabpanel" class="tab-pane fade" id="three">
+                <div class="center-text">
+                    <textarea name="editor1" id="editor1"></textarea>
+                </div>
+            </div>
+        </div>
+            
+    <div class="col-md-3"></div>
+    </div>
+    
+    
+<!--
+        <script>
+            CKEDITOR.replace( 'editor1' {
+    toolbar: [
+    { name: 'document', groups: [ 'mode', 'document', 'doctools' ], items: [ 'Source', '-', 'Save', 'NewPage', 'Preview', 'Print', '-', 'Templates' ] },
+    { name: 'clipboard', groups: [ 'clipboard', 'undo' ], items: [ 'Cut', 'Copy', 'Paste', 'PasteText', 'PasteFromWord', '-', 'Undo', 'Redo' ] },
+    { name: 'editing', groups: [ 'find', 'selection', 'spellchecker' ], items: [ 'Find', 'Replace', '-', 'SelectAll', '-', 'Scayt' ] },
+    { name: 'forms', items: [ 'Form', 'Checkbox', 'Radio', 'TextField', 'Textarea', 'Select', 'Button', 'ImageButton', 'HiddenField' ] },
+    '/',
+    { name: 'basicstyles', groups: [ 'basicstyles', 'cleanup' ], items: [ 'Bold', 'Italic', 'Underline', 'Strike', 'Subscript', 'Superscript', '-', 'RemoveFormat' ] },
+    { name: 'paragraph', groups: [ 'list', 'indent', 'blocks', 'align', 'bidi' ], items: [ 'NumberedList', 'BulletedList', '-', 'Outdent', 'Indent', '-', 'Blockquote', 'CreateDiv', '-', 'JustifyLeft', 'JustifyCenter', 'JustifyRight', 'JustifyBlock', '-', 'BidiLtr', 'BidiRtl', 'Language' ] },
+    { name: 'links', items: [ 'Link', 'Unlink', 'Anchor' ] },
+    { name: 'insert', items: [ 'Image', 'Flash', 'Table', 'HorizontalRule', 'Smiley', 'SpecialChar', 'PageBreak', 'Iframe' ] },
+    '/',
+    { name: 'styles', items: [ 'Styles', 'Format', 'Font', 'FontSize' ] },
+    { name: 'colors', items: [ 'TextColor', 'BGColor' ] },
+    { name: 'tools', items: [ 'Maximize', 'ShowBlocks' ] },
+    { name: 'others', items: [ '-' ] },
+    { name: 'about', items: [ 'About' ] }
+]
+});
+        </script>
+-->
+    </div>
+    
+<!--
+    <div class="invisible" style="display:none">
+        <a href="#one" id="0" class="bs-wizard-dot inactive-lin" aria-controls="one" role="tab" data-toggle="tab">
+        <a href="#two" id="1" class="bs-wizard-dot inactive-lin" aria-controls="one" role="tab" data-toggle="tab">
+        <a href="#three" id="2" class="bs-wizard-dot inactive-lin" aria-controls="one" role="tab" data-toggle="tab">
+-->
+    
+    </div>
+
+    
+    <div class="fixedbutton">
+        <button type="button" class="btn share-btn" id="back" style="margin-right:75px">
+        <span aria-hidden="true"></span> Back
+        </button>
+        <button type="button" class="btn share-btn" id="next">
+        <span aria-hidden="true"></span> Next
+        </button>
+    </div>
+ 
+            
+<script>
+    $(document).ready(function() {
+          
+        
+        $("#next").click(function(){
+            var nextVar = 0;
+            var sel = $(".bs-wizard-step");
+            sel.each( function(){ 
+                
+                if ($(this).attr("class").indexOf('active') >= 0 ){
+                    
+                    if(nextVar==0){
+                        $('a[href="#two"]').click();
+                        
+                            $(this).removeClass('active');
+                            $(this).addClass('complete');
+                            $(sel[nextVar+1]).removeClass('disabled');
+                            $(sel[nextVar+1]).addClass('active');
+                            return false;
+                    }else{
+                        if(nextVar==1){
+                            $('a[href="#three"]').click();
+                            $(this).removeClass('active');
+                            $(this).addClass('complete');
+                            $(sel[nextVar+1]).removeClass('disabled');
+                            $(sel[nextVar+1]).addClass('active');
+                            return false;
+                        }
+                    }    
+                }
+                nextVar++;
+            });
+            
+        }); 
+        
+        
+        
+        $("#back").click(function(){
+            var nextVar = 0;
+            var sel = $(".bs-wizard-step");
+            sel.each( function(){ 
+                
+                if ($(this).attr("class").indexOf('active') >= 0 ){
+                    
+                    if(nextVar==1){
+                        
+                        
+                            $('a[href="#one"]').click();
+                            $(this).removeClass('active');
+                            $(this).addClass('disabled');
+                            $(sel[nextVar-1]).removeClass('complete');
+                            $(sel[nextVar-1]).addClass('active');
+                            return false;
+                    }else{
+                        if(nextVar==2){
+                            $('a[href="#two"]').click();
+                            $(this).removeClass('active');
+                            $(this).addClass('disabled');
+                            $(sel[nextVar-1]).removeClass('complete');
+                            $(sel[nextVar-1]).addClass('active');
+                            return false;
+                        }
+                    } 
+                }
+                nextVar++;
+            });
+            
+        }); 
+    });
+</script>
+            
+    
+</body>
+</html>
